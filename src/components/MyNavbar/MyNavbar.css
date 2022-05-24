@@ -1,0 +1,12 @@
+.navbar{
+    text-decoration: none;
+    color: brown;
+}
+.header{
+    background:  linear-gradient(to bottom right, rgba(66, 204, 223, 0.877), rgb(80, 251, 200)) !important;
+}
+.navbar2{
+    text-decoration: none;
+    color: rgb(58, 249, 0);
+    text-align: center;
+}
