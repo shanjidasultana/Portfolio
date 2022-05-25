@@ -77,7 +77,7 @@ function Testimonials() {
                             <button
                                 className='prevBtn'
                                 onClick={gotoPrev}
-                                style={{ backgroundColor: 'lime' }}>
+                               >
                                 <FaArrowLeft
                                     aria-label='Previous testimonial'
                                 />
@@ -85,7 +85,6 @@ function Testimonials() {
                             <button
                                 className='nextBtn'
                                 onClick={gotoNext}
-                                style={{ backgroundColor: 'lime' }}
                             >
                                 <FaArrowRight
                                     aria-label='Next testimonial'

@@ -19,16 +19,16 @@ const Contact = () => {
                </Col>
                <Col>
                 <form  onSubmit={sendEmail}>
-                    <label className=' fw-bold fs-2 text-danger '>Name</label><br/>
-                    <input style={{ position: 'relative', zIndex: '999' }}  className="w-75 my-2 p-2" type="text" name="name"/><br/>
+                    <label style={{fontFamily:'cursive'}} className=' fw-bold fs-2 text-danger '>Name</label><br/>
+                    <input style={{ position: 'relative',fontFamily:'cursive', zIndex: '999',backgroundColor:'skyBlue',border:'none', }}  className="text-danger w-75 fw-bold fs-3 my-2 p-2" type="text" name="name"/><br/>
 
-                    <label className=' fw-bold fs-2 text-danger '>Email</label><br/>
-                    <input style={{ position: 'relative', zIndex: '999' }}  className="w-75 my-2 p-2" type="email"  name="user_email"/><br/>
+                    <label style={{fontFamily:'cursive'}} className=' fw-bold fs-2 text-danger '>Email</label><br/>
+                    <input style={{ position: 'relative', fontFamily:'cursive',zIndex: '999' ,backgroundColor:'skyBlue',border:'none'}}  className="text-danger w-75 fw-bold fs-3 my-2 p-2" type="email"  name="user_email"/><br/>
 
-                    <label className=' fw-bold fs-2 text-danger '>Message</label><br/>
-                    <textarea style={{ position: 'relative', zIndex: '999' }}  className="w-75 my-2 p-2"  name="message"  row="4"/><br/>
+                    <label style={{fontFamily:'cursive'}} className=' fw-bold fs-2 text-danger '>Message</label><br/>
+                    <textarea style={{ position: 'relative',fontFamily:'cursive', zIndex: '999',backgroundColor:'skyBlue',border:'none' }}  className="text-danger fw-bold fs-3 w-75 my-2 p-2"  name="message"  row="4"/><br/>
 
-                    <input style={{ position: 'relative', zIndex: '999' }}  className="w-75 fw-bold rounded border-0 bg-warning my-2 p-3  fs-3 " type="submit" value="Send" />
+                    <input style={{ position: 'relative', zIndex: '999',border:'none' }}  className="btn-contact w-75 h-50 fw-bold rounded border-0  my-2 p-3  fs-3 " type="submit" value="Send" />
                 </form>
                </Col>
            </Row>

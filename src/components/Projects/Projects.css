@@ -14,9 +14,9 @@
   }
   
   .project-card-view {
-    box-shadow: 0 4px 5px 3px #00a36c !important;
-    color: rgb(107, 105, 90) !important;
-    background-color: transparent !important;
+    border:none!important;
+    color: black !important;
+    background:rgba(147, 130, 109, 0.307) !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 430px !important;
@@ -24,21 +24,22 @@
   .project-card-view:hover {
     transform: scale(1.1) !important;
     overflow: hidden !important;
-    box-shadow: 0 2px 3px 8px #f4faf8 !important;
+    box-shadow: 0 8px 10px 2px #050505 !important;
   }
 
   .btn-primary {
     font-weight:bold !important;
-    border-radius: 5% !important;
+    border: none !important;
     margin-right: 20px !important;
-    background:  linear-gradient(to top , rgba(235, 235, 235, 0.877), #657e61) !important;
+    color:rgb(104, 104, 159) !important;
+    background: rgba(117, 218, 205, 0.282) !important;
   }
   .btn-primary:hover {
-    color: rgb(242, 197, 197) !important;
+    color: rgb(229, 187, 187) !important;
     font-weight: bold !important;
-    box-shadow: 0 3px 3px 6px #fafafa !important;
-    background-color: #dee6e4d7 !important;
-    border-color: #bdefdfd7 !important;
+    box-shadow: 0 3px 3px 2px #0c0b0b !important;
+    background-color: #3d4443d7 !important;
+    border-color: #eaf0eed7 !important;
   }
   .btn:focus {
     outline: none !important;

@@ -14,7 +14,7 @@ function Project() {
                 <Row xs={1} md={3} style={{ justifyContent: "center", paddingBottom: "10px" }}>
                      {projects.map(project => (
                        <Col className="project-card" >
-                        <ScrollAnimation animateIn="fadeInLeft">
+                        <ScrollAnimation animateIn="fadeInUp" delay="3">
                             <Card  className="project-card-view">
                              <Link  to={`/projects/${project._id}`}>
                                     <Card.Img variant="top" src={project.image} alt="card-img" />

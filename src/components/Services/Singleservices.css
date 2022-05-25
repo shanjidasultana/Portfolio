@@ -1,5 +1,5 @@
 .single-service {
-    box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+    box-shadow: 4px 4px 8px rgba(101, 97, 97, 0.353);
     width: 180px;
     height: 180px;
     border-radius: 20px;
@@ -9,7 +9,9 @@
     justify-content: center;
     padding: 1.4rem 1.4rem;
     /* overflow: hidden; */
+    background-color: rgba(87, 68, 68, 0.311)!important;
     transition: transform 300ms ease-in-out;
+    color:rgb(162, 255, 0)!important;
 }
 
 .single-service:hover {
@@ -28,12 +30,12 @@
 .service-icon {
     position: absolute;
     top: 15%;
-    /* transform: translateY(-50%); */
+    transform: translateY(-50%);
 }
 
 .service-icon > svg {
     font-size: 2.8rem;
-    /* color: #000000; */
+     color: #dfdf73; 
 }
 
 .single-service:hover svg{
@@ -85,7 +87,7 @@
     font-size: 16px;
     text-align: center;
     line-height: 110%;
-    color: #000000;
+    color: #e2d73d;
 }
 
 @media screen and (max-width: 800px) {
