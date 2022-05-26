@@ -1,6 +1,13 @@
 .contactForm{
     width: 75%;
     margin: 10px auto;
+    
+}
+.contactForm h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616);
+
 }
 
 #tsparticles {

@@ -45,9 +45,10 @@
     outline: none !important;
   }
   .project-heading {
-    color: rgb(255, 255, 255) !important;
-    font-size: 2.3em !important;
-    font-weight: 500 !important;
+    font-size: 3rem !important;
+    font-weight: bold !important;
     padding-top: 10px !important;
+    text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616) !important;
+
   }
   

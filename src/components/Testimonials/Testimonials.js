@@ -42,7 +42,6 @@ function Testimonials() {
                 <div className='testimonials'>
                     <div className='testimonials--header'>
                         <h1 
-                        style={{ color: 'black' }}
                         >Testimonials</h1>
                     </div>
                     <div className='testimonials--body'>

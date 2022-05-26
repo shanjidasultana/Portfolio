@@ -12,13 +12,15 @@
   display: flex;
   align-items: center;
   justify-content: center; 
+  text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616);
+
 }
 
 .skillsHeader h2 {
   font-family: var(--primaryFont);
   font-style: normal;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 

@@ -9,7 +9,7 @@ const MyNavbar = () => {
     return (
         <Navbar bg="light"  className="header" expand="lg" >
             <Container>
-                <Navbar.Brand className=' d-flex align-items-center justify-content-center'><img  src={logo} alt=" "/> <h3 className='ms-1 me-5 fs-2 navbar2' >MoonNight</h3></Navbar.Brand>
+                <Navbar.Brand > <h3 className='fs-1 navbar2' >MoonNight</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className=" ms-auto ">

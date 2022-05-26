@@ -11,11 +11,17 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+   
+    
 }
 
 .services-header > h1 {
     margin-bottom: 20px;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    font-weight: bold !important;
+    padding-top: 10px !important;
+    text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616) !important;
+
     font-family: var(--primaryFont);
 }
 

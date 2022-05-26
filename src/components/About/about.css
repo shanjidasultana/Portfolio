@@ -1,0 +1,24 @@
+.txt-color{
+    color:rgba(174, 4, 4, 0.684);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow-btn{
+    background-color:rgba(157, 157, 101, 0.467);
+    border:none;
+    color: white;
+    font-size: medium;
+    text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616);
+
+}
+.yellow-btn:hover {
+    color: rgb(229, 187, 187) !important;
+    font-weight: bold !important;
+    box-shadow: 0 3px 3px 2px #0c0b0b !important;
+    background-color: #3d4443d7 !important;
+    border-color: #eaf0eed7 !important;
+  }
+  .txt-shadow{
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px rgba(126, 86, 86, 0.616);
+  }

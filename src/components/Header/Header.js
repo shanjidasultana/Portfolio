@@ -8,6 +8,7 @@ import { MdEmail} from 'react-icons/md';
 import backpic from '../../images/backpic.png'
 import Profile from "../../images/young-woman-gesturing-ok-sign-vector-32013182-removebg-preview.png";
 import Partle from "../Partle";
+import '../About/about.css';
 
 const Header = () => {
     return (
@@ -73,7 +74,7 @@ const Header = () => {
            
                <Row>
                     <Col>
-                    <h1 className='mt-5 '>Hello Everyone <br />
+                    <h1  className='mt-5 text-white '>Hello Everyone <br />
                     </h1>
                     <p className='w-50 fs-4 lh-4 mx-auto fw-bold'>A passionate Front-End Developer having an experince of building Web and Mobile Applications With <br />
                     <Typical
@@ -106,10 +107,10 @@ const Header = () => {
                     <br /><br />
                
                         <a style={{ position: 'relative', zIndex: '999' }}  href="https://drive.google.com/file/d/1rnALFexaSoLQ9zwgDaEUx_5K-YfnmUJ9/view?usp=sharing" download="Resume Of Shanjida Sultana2.pdf">
-                            <button className='my-3 mx-3 p-2 rounded border-0 bg-warning fs-3 fw-bold'>Open Resume</button>
+                            <button className='my-3 mx-3 p-2 rounded border-0 yellow-btn fs-3 fw-bold'>Open Resume</button>
                         </a> 
                         <a style={{ position: 'relative', zIndex: '999' }}  href="Resume Of Shanjida Sultana2.pdf" download="Resume Of Shanjida Sultana2.pdf">
-                            <button className='my-3 mx-3 p-2 rounded border-0 bg-warning fs-3 fw-bold'>Resume</button>
+                            <button className='my-3 mx-3 p-2 rounded border-0 yellow-btn fs-3 fw-bold'>Resume</button>
                         </a>
                             </Col>
                             <Col>
